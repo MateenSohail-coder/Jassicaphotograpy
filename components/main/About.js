@@ -1,7 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -26,18 +24,19 @@ export default function About() {
                 My Story
               </h3>
               <p className="text-neutral-600 leading-relaxed text-lg">
-                With over 5 years of experience in photography, I've had the
-                privilege of capturing countless special moments. From intimate
-                portraits to grand wedding celebrations, I believe every photo
-                tells a unique story. My passion lies in creating timeless
-                images that evoke emotion and preserve memories for generations
-                to come.
+                With over 5 years of experience in photography, I&apos;ve had
+                the privilege of capturing countless special moments. From
+                intimate portraits to grand wedding celebrations, I believe
+                every photo tells a unique story. My passion lies in creating
+                timeless images that evoke emotion and preserve memories for
+                generations to come.
               </p>
               <p className="text-neutral-600 leading-relaxed text-lg">
                 I specialize in natural light photography, ensuring that every
-                shot feels authentic and beautiful. Whether it's your wedding
-                day, family portraits, or a corporate event, I'm committed to
-                delivering exceptional results that exceed expectations.
+                shot feels authentic and beautiful. Whether it&apos;s your
+                wedding day, family portraits, or a corporate event, I&apos;m
+                committed to delivering exceptional results that exceed
+                expectations.
               </p>
             </div>
 

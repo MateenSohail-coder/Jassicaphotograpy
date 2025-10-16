@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold reverie">Jassica Photography</h3>
             <p className="text-neutral-400">
-              Capturing life's beautiful moments with passion and artistry.
+              Capturing life&apos;s beautiful moments with passion and artistry.
             </p>
             <div className="flex space-x-4">
               <Badge

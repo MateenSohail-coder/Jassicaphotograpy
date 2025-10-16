@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import MailIcon from "../svgs/email";
 import PhoneIcon from "../svgs/phone";
 import LocationIcon from "../svgs/location";
@@ -53,8 +52,9 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            Ready to capture your special moments? Let's discuss your
-            photography needs.
+            Ready to capture your special moments? Let&apos;s discuss your Ready
+            to capture your special moments? Let&apos;s discuss your photography
+            needs.
           </p>
         </div>
 

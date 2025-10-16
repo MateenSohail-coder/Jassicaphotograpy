@@ -72,7 +72,7 @@ export default function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Capturing life's precious moments with passion and artistry.
+          Capturing life&apos;s precious moments with passion and artistry.
           Professional photography services for weddings, portraits, and events.
         </p>
 
