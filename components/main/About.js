@@ -85,8 +85,13 @@ export default function About() {
 
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <Avatar className="w-80 h-80 shadow-2xl border-8 border-white">
-                <AvatarImage src="/jassica.jpg" alt="Jassica" />
+              <Avatar className="w-80 h-80 shadow-2xl relative border-8 border-white">
+                <AvatarImage
+                  className="bg-cover"
+                  fill="true"
+                  src="/jassica.jpg"
+                  alt="Jassica"
+                />
                 <AvatarFallback className="text-8xl relative bg-gradient-to-br from-neutral-200 to-neutral-300"></AvatarFallback>
               </Avatar>
               <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-full shadow-lg">
